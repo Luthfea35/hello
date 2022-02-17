@@ -1,0 +1,20 @@
+.box_1{
+    background-color:rgb(216, 216, 216);
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border: solid thin #faf6f6;
+    border-radius: 1%;
+}
+.fbox_heading{
+    height: 30px;
+    width: 228px;
+    background-color: #98C7F5;
+    text-align: center;
+}
+#box2{
+ background-color: #c6d9f6;
+}
+.fbox{ 
+    float: left; 
+}

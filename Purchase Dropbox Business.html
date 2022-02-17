@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Purchase dropbox business .css">
+    <title>Purchase Dropbox Business</title>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h1>Purchase Dropbox Business</h1>
+            <p>or <a href="#">try free for 30 days.</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="box_1 col-sm-8">
+            <div class="container">
+                <div class="mb-2">
+                <h5 class="mb-2 mt-3"> 1.Choose Your plan</h5>
+            </div>
+            <div class="row mb-2">
+                <div class="col-sm-4 fbox">
+                    <label for="users" class="col-lg-12">Number of users</label>
+                    <input type="number" name="users" id="users" class="col-lg-12 form-control">
+                </div>
+                <div class="col-sm-8">
+                            <div class="fbox_heading">Most Popular</div>
+                            <div id="box2" class="fbox col-sm-6 text-center">
+                                <p> Billed Yearly(save 20%) </p>
+                                <p> $20/user/month<br />
+                                    $1200 charged Yearly</p>
+                            </div>
+                            <div class="fbox col-sm-6 text-center bg-white" style="color: #b0b4b8;">
+                                <p> Billed Monthly </p>
+                                <p> $25/user/month<br />
+                                    $125 charged Yearly</p>
+                            </div>
+                        </div>
+ 
+            </div>
+            <div class="mb-3">
+                <h5 class="mb-6">2.Tell us about yourself</h5>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-6">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstname">
+ 
+                </div>
+                <div class="col-sm-6">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email">
+ 
+                </div>
+                <div class="col-sm-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="password">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-4">
+                    <label for="team_name" class="form-label">Team name</label>
+                    <input type="text" class="form-control" id="team_name">
+                </div>
+                <div class="col-sm-4">
+                    <label for="contract_telephone" class="form-label">Contractr Telephone</label>
+                    <input type="text" class="form-control" id="contract_telephone">
+                </div>
+                <div class="col-sm-4">
+                    <label for="company_size" class="form-label">Company size</label>
+                    <select class="form-control">
+                        <option value="1">Below 50</option>
+                        <option value="2">Upper 50</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <h5 class="mt-3">3.Enter payment details</h5>
+            </div>
+            <div class="col-sm-12 mb-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        <img src="media/visa.png" class="credit-card">
+                        <img src="media/american express.png" class="credit-card">
+                        <img src="media/mastercard.png" class="credit-card">
+                        <img src="media/discover.png" class="credit-card">
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        <img src="media/Paypal-logo.png">
+                    </label>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-12">
+                    <label for="credit_card_number" class="form-label">Credit card number</label>
+                    <input type="text" class="form-control" id="credit_card_number">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <label for="security_code" class="form-label">Security code</label>
+                    <input type="text" class="form-control" id="security_code">
+                </div>
+                <div class="col-sm-6">
+                    <label for="expiration_date" class="form-label">Expiration Date</label>
+                    <input type="text" class="form-control" id="expiration_date" placeholder="MM/YY">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <label for="postal_code" class="form-label">Postal code</label>
+                    <input type="text" class="form-control" id="postal_code">
+                </div>
+                <div class="col-sm-4">
+                    <label for="contry" class="form-label">Contry</label>
+                    <select class="form-control">
+                        <option value="1">Hong kong</option>
+                        <option value="2">Bangladesh</option>
+                        <option value="2">England</option>
+                        <option value="2">Germany</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I agree to the <a href="#"> Dropbox Business Agreements </a> and <a href="#"> Terms</a>
+                    </label>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <button class="btn btn-primary" style="width: 100%;" type="button">Complete Purchase</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

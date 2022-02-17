@@ -1,0 +1,43 @@
+#div1{
+    background-color: chocolate;
+    color: floralwhite;
+    text-align: center;
+    padding: 15px;
+}
+#div2{
+    margin-left: 400px;
+    margin-right: 400px;
+   color: darkolivegreen;
+   background-color: white;
+   
+}
+#div3{
+    margin-left: 400px;
+   margin-right: 400px;
+}
+.btn{
+    background-color:skyblue;
+    width: 150px;
+    height: 30px;
+}
+#video1{
+   margin-top: 20px;
+   margin-left: 400px;
+    width: 600px;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:hover{
+    background-color: #d1eaf0;
+  }
+  
